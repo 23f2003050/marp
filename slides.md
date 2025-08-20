@@ -2,7 +2,6 @@
 marp: true
 theme: custom
 paginate: true
-_paginate: false
 ---
 
 <!-- _class: lead -->
@@ -21,10 +20,11 @@ _paginate: false
 
 ---
 
-<!-- _backgroundImage: url('https://picsum.photos/1600/900') -->
-# Background Image Slide  
+<!-- _backgroundImage: "https://picsum.photos/1600/900" -->
+<!-- _backgroundSize: cover -->
+# Background Image Slide
 
-This slide has a full background image.  
+This slide has a full background image applied via Marp directives.  
 
 ---
 
