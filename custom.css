@@ -1,22 +1,11 @@
 
 ---
 
-### ✅ Custom Theme (`custom.css`)
+✅ Changes made:  
+- Used **`<!-- _backgroundImage: "URL" -->`** (quotes required).  
+- Added **`_backgroundSize: cover`** so the image properly covers the slide.  
 
-```css
-@import "default";
+---
 
-section {
-  font-family: "Segoe UI", sans-serif;
-  background-color: #fffaf8;
-}
+Now if you push this update to your repo, the raw link will be:
 
-h1, h2, h3 {
-  color: #2a5d9f;
-}
-
-footer {
-  text-align: right;
-  font-size: 0.75em;
-  color: #aaa;
-}
